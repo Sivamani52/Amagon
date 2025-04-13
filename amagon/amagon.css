@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+.navbar{
+    background-color: #0F1111;
+    height:60px;
+    color:white;
+    display:flex;
+    align-items: center;
+    
+}
+.nav-logo{
+    height:56.5px;
+    width:70px;
+   margin-left:10px;
+}
+
+.logo{
+    background-image: url(./download\ \(1\).png);
+    background-size:cover;
+    height:56.5px;
+    width:100%;
+    
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+
+/* box2 */
+
+.box2{
+    margin-left:10px;
+    height:40px;
+    width:150px;
+}
+
+.ab1{
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#cccccc;
+    display:flex;
+    margin-left:15px;
+    border:none;
+}
+.ab2{
+    font-size:1 rem;
+    margin-left: 3px;
+}
+
+
+/* Box3 */
+.s2{
+    display:flex;
+    height:37px;
+    width:600px;
+    margin-left:20px;
+}
+
+.s1{
+    height:37px;
+    width:50px;
+    
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.918);
+}
+.s2:hover{
+    
+    border:2px solid orange;
+    border-radius:6px;
+}
+input{
+    height:34px;
+    width:500px;
+    font-size:18px;
+   border:none;
+
+}
+
+.search-logo{
+    background-color:#FEBD68;
+    height:36px;
+    width: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    size:60px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+
+/* Box4 */
+
+.box4{
+    font-size:12px;
+    margin-left:30px;
+}
+.box4-1{
+    font-size: 16px;
+    text-shadow:20px;
+}
+
+.box-5{
+    width:150px;
+    height:100px;
+    margin-top:60px;
+}
+
+.cart-logo{
+    font-size: 35px;;
+   
+}
+
+.cart{
+    margin-left:50px;
+    font-weight: 700;
+    display:flex;
+    align-items: center;
+}
+
+/* Line 2 */
+
+.navbar2{
+    background-color:#222f3d;
+    height:40px;
+    display:flex;
+    align-items: center;
+    color:white;
+}
+.b1{
+    margin-left:10px;
+    height:25px;
+    font-family:700;
+}
+
+.margin{
+    margin-left:20px;
+}
+.width{
+    height:25px;
+    font-family:700;
+}
+
+/* Background */
+.background{
+    height:300px;
+    width:100%;
+    background-image: url("./background.jpg");
+    background-size: cover;
+}
+
+/* boxes */
+
+.panel{
+    height:680px;
+    width:100%;
+    background-color: #cccccc;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+}
+.order{
+    height:60%;
+    width:60%;
+    display:flex;
+    justify-content: center;
+    margin-left:50px;
+   
+}
+
+.boxx{
+    margin-top:20px;
+    height:300px;
+    width:23%;
+    background-color: white;
+   
+    
+    
+}
+.boxx h2{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.anchor{
+    font-size:12px;
+    color:rgb(106, 106, 236);
+    
+    margin-left:30px;
+}
+
+/* footer */
+
+.foot{
+    height:580px;
+    width:100%;
+}
+
+.footer1{
+    height:50px;
+    background-color: #222f3d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   font-size:13px;
+   font-weight: 20px;
+    color:#FFFFFF;
+}
+
+.footer1:hover{
+    background-color:#222f3deb;
+}
+
+.footer2{
+    background-color: #37475a;
+    height:400px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color:white;
+    
+}
+
+.footer2 ul p{
+    margin-top:10px;
+    font-size:14px;
+    color:#DDDDDD;
+}
+
+.footer3{
+    height:100px;
+    background-color:#37475a;
+    border-top:0.5px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot-img{
+    height:70px;
+    width:80px;
+    background-image: url("./download\ \(1\).png");
+    background-size: cover;
+    border:0.01px solid white;
+    
+}
+
+.footer4{
+    height:80px;
+    background-color:  #131a22;
+    border-top:0.01px solid white;
+}
+.terms{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    color:white;
+    font-size:12px;
+}
+
+.terms p{
+    margin-left:10px;
+}
+.condition{
+    display:flex;
+    justify-content: center;
+    font-size:12px;
+    color:white;
+}
